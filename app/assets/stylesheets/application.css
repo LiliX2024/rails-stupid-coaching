@@ -13,3 +13,50 @@
  *= require_tree .
  *= require_self
  */
+/* 自定义页面样式 */
+
+/* 设置页面背景颜色 */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+}
+
+/* 让标题更加醒目 */
+h1 {
+  color: #2c3e50;
+  font-size: 5em;
+  margin-top: 20px;
+}
+
+/* 定义表单样式 */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px
+
+/* 修改背景颜色 */
+.you {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.coach {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
